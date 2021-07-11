@@ -1,3 +1,24 @@
 body {
     background-color: antiquewhite;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+li {
+    float: inline-end;
+}
+
+li a {
+    display: block;
+    text-align: right;
+    padding: 14px 6px;
+    text-decoration: none;
+}
+
