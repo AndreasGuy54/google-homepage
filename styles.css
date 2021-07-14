@@ -1,24 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: antiquewhite;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-bottom: 20px;
-    text-align: right;
+main {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-li {
-    float: inline-end;
-}
-
-li a {
+img {
     display: block;
-    text-align: right;
-    padding: 14px 6px;
-    text-decoration: none;
+    margin-bottom: 1.5rem;
 }
 
+input {
+    margin-left: 2rem;
+}
