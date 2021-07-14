@@ -5,5 +5,3 @@ HTML
 CSS
 
   FLEXBOX
-
-  CSS - GRID
