@@ -5,10 +5,11 @@
 
 body {
     background-color: antiquewhite;
+    max-height: 100vh;
 }
 
 main {
-    min-height: 100vh; 
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,3 +25,29 @@ input[type=text] {
     height: 4rem;
     border: 1.5px solid rgb(49, 44, 44);
     border-radius: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 8px;
+    background-color: #dddddd;
+    text-align: right;
+    height: 2vh;
+}
+
+li {
+    display: inline;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+footer {
+    height: 8vh;
+    background-color: blueviolet;
+}
