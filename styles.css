@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: antiquewhite;
     max-height: 100vh;
 }
 
@@ -20,34 +19,67 @@ img {
     margin: 0  auto 1.5rem auto;
 }
 
+/* STYLING INPUTS */
 input[type=text] {
-    width: 30rem;
+    /* display: block; */
+    width: 40rem;
     height: 4rem;
     border: 1.5px solid rgb(49, 44, 44);
     border-radius: 2rem;
 }
 
+.buttons {
+    width: 22rem;
+    margin: 2rem auto;
+}
+
+.search {
+    margin-right: 1rem;
+}
+
+input[type=button] {
+    display: inline;
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+
+input[type=button]:hover {
+    border: 1px solid rgb(230, 230, 230);;
+}
+
+/* LISTS */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 8px 8px 0px 8px;
     text-align: right;
-    height: 2vh;
+    height: 4vh;
 }
 
 li {
     display: inline;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(49, 44, 44);;
 }
 
 .icon {
     padding-right: 5px;
 }
 
-footer {
-    height: 8vh;
-    background-color: blueviolet;
+/* FOOTER */
+.bottom {
+    height: 4vh;
+    background-color: #e2e2e2;
+}
+
+.left-footer {
+    text-align: left;
 }
